@@ -100,6 +100,7 @@ namespace Orchard.Environment.Shell.Builders
                 SerialNumber = -1,
                 Features = new List<ShellFeature>(_shellFeatures),
                     new ShellFeature { Name = "Orchard.OpenId" },
+                    new ShellFeature { Name = "Orchard.OpenId" },
                 Parameters = new List<ShellParameter>()
             };
         }
