@@ -31,6 +31,7 @@
         "Orchard.Roles",
         "Orchard.Users",
         "Orchard.Identity",
+        "Orchard.OpenId",
         "Orchard.Autoroute",
         "Orchard.Tokens",
         "Orchard.Tokens.Content",
