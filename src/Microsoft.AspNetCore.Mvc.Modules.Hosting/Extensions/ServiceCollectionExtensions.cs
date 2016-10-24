@@ -56,6 +56,7 @@ namespace Microsoft.AspNetCore.Mvc.Modules.Hosting
 
                     mvcSetupAction?.Invoke(options);
                 })
+                .AddAuthorization()
                 .AddViews()
                 .AddViewLocalization()
                 .AddRazorViewEngine()
